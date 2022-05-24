@@ -1,0 +1,52 @@
+git init = inicializa um repositório no git dentro do diretório
+
+untracked = arquivos q o git não tem ciência
+tracked = oposto
+unmodified/modified 
+staged = arquivos que estão se preparando (?)
+
+git add = arquivo untracked moveu para direto para staged
+git commit = volta de staged para unmodified
+
+
+--
+
+repositório
+
+ambiente de desenvolvido = tudo que está na nossa máquina
+servidor = github(?)/sua máquina. as alterações que fazemos
+na nossa máquina ainda não vai automaticamente para o servidor.
+
+working directory / staging area / local repository
+
+untracked + git add = vai para staging area
+staged + commit = local repository (composto por commits)
+
+
+---
+
+criando repositório no github:
+
+1. create a new repository (no site github)
+2. copiar a url https "push an existing repository...."
+3. abrir o git no pc dentro da pasta
+4. git remote add origin httpsCopiado
+5. git remote -v
+6. git status (para conferir se tem alguma pendência no rep)
+7. git push origin master
+
+---
+
+comandos:
+
+- git init = inicializa um repositório no git dentro do diretório
+- git add (movendo arquivos para a área anterior ao palco)
+- git commit -m "comentário" (moveu todos os arquivos da área do palco)
+- git status
+- git push origin master
+- git pull origin master
+- mkdir (criar repositório)
+- ls (listar)
+- mv nomeArquivo ./nomeRepositório (mover)
+- cd (caminhar pelas pastas)
+- cd .. (retornar a pasta anterior)
